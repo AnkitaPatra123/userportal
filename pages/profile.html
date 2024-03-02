@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Navbar with Table</title>
+    <link rel="stylesheet" href="../css/style8.css">
+    <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+   <body>
+    <div id="hero">
+        <nav>
+       <label
+          class="logo">Tech<span>E</span>asy</label>
+          <div class="action">
+            <div class="profile" onclick="menuToggle();">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpX_BZoIhTfK3nl8EcpmqfMQd9LdyC9qpszA&usqp=CAU" />
+            </div>
+            <div class="menu">
+              <h3>Miss Juliana<br /><span>Website Designer</span></h3>
+              <ul>
+                <li>
+                  <i class='bx bxs-user-circle'></i> <a href="#">My profile</a>
+                </li>
+                <li>
+                  <i class='bx bxs-pencil'></i><a href="#">Edit profile</a>
+                </li>
+                <li>
+                  <i class='bx bxs-log-out'></i><a href="#">Logout</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <script>
+            function menuToggle() {
+              const toggleMenu = document.querySelector(".menu");
+              toggleMenu.classList.toggle("active");
+            }
+          </script>
+          </nav>
+          </div>
+         
+          <center>
+          <h1>User List</h1>
+          </center>
+          
+          <table>
+            <thead>
+                <tr>
+                    
+                   <th>User Name</th> 
+                    <th>Address</th>
+                    <th>Email</th>
+                    <th>Action &nbsp; <i class='bx bx-plus-circle'></i>              
+                </tr></th>
+                    
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lipsa Patra</td>
+                    <td>Bengaluru</td>
+                    <td>lipsa@gmail.com</td>
+                    <label>
+                      <td><i class='bx bxs-pencil'></i>  &nbsp;  &nbsp;         
+                       <i class='bx bxs-trash-alt'></i>  
+                      </td>
+                    </label>
+                  
+                </tr>
+                <tr>
+                    <td>Monalisha Patra</td>
+                    <td>Khordha</td>
+                    <td>monalisha@gmail.com</td>
+                    <label>
+                        <td><i class='bx bxs-pencil'></i>  &nbsp;  &nbsp;         
+                         <i class='bx bxs-trash-alt'></i>  
+                        </td>
+                      </label>
+                </tr>
+                <tr>
+                    <td>Ipsita Patra</td>
+                    <td>India</td>
+                    <td>ipsita@gmail.com</td>
+                    <label>
+                        <td><i class='bx bxs-pencil'></i>  &nbsp;  &nbsp;         
+                         <i class='bx bxs-trash-alt'></i>  
+                        </td>
+                      </label>
+                </tr>
+
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>Australia</td>
+                    <td>jane@gmail.com</td>
+                    <label>
+                        <td><i class='bx bxs-pencil'></i>  &nbsp;  &nbsp;         
+                         <i class='bx bxs-trash-alt'></i>  
+                        </td>
+                      </label>
+                </tr>
+
+                <tr>
+                    <td>Ankita Patra</td>
+                    <td>Italy</td>
+                    <td>ankita@gmail.com</td>
+                    <label>
+                        <td><i class='bx bxs-pencil'></i>  &nbsp;  &nbsp;         
+                         <i class='bx bxs-trash-alt'></i>  
+                        </td>
+                      </label>
+                </tr>
+                <tr>
+                    <td>Devilliers</td>
+                    <td>Southafrica</td>
+                    <td>abd@gmail.com</td>
+                    <label>
+                        <td><i class='bx bxs-pencil'></i>  &nbsp;  &nbsp;         
+                         <i class='bx bxs-trash-alt'></i>  
+                        </td>
+                      </label>
+                </tr>
+
+                <tr>
+                    <td>Shreyas Iyer</td>
+                    <td>Manipur</td>
+                    <td>iyer@gmail.com</td>
+                    <label>
+                        <td><i class='bx bxs-pencil'></i>  &nbsp;  &nbsp;         
+                         <i class='bx bxs-trash-alt'></i>  
+                        </td>
+                      </label>
+                </tr>
+                <tr>
+                    <td>Adam Zampa</td>
+                    <td>England</td>
+                    <td>adam@gmail.com</td>
+                    <label>
+                        <td><i class='bx bxs-pencil'></i>  &nbsp;  &nbsp;         
+                         <i class='bx bxs-trash-alt'></i>  
+                        </td>
+                      </label>
+                </tr>
+
+
+
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+
+
+    
+
+</body>
+</html>
